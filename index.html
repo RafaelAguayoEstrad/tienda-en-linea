@@ -1,233 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aguayo - Tu Destino para Comida y Bebidas en Línea</title>
-  <link rel="stylesheet" href="estilo/comida.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estilo/contacto.css">
+<title>Formulario de Contacto</title>
 </head>
 <body>
-  <div id="sidebar-toggle" class="sidebar-toggle">☰</div>
-  <div class="sidebar">
-    <img src="img/logo.jpg" alt="Aguayos Logo">
-    <ul class="sidebar-menu">
-      <li><a href="contacto.html">Contacto</a></li>
-      <li><a href="#">Ingreso</a></li>
-      <li><a href="#">Registro</a></li>
-      <li>
-        <select id="language-select">
-          <option value="es">Español</option>
-          <option value="en">Inglés</option>
-        </select>
-      </li>
-    </ul>
+
+<header>
+  <div class="container">
+    <h1>Contactanos</h1>
+    <div id="user-info">Usuario: NombreDeUsuario</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="menu.html">Menú</a></li>
+      </ul>
+    </nav>
   </div>
+</header>
 
-  <div id="main-content">
-  
-    <header>
-      <div class="container">
-        <h1>Aguayo - Tu Destino para Comida y Bebidas en Línea</h1>
-        <div id="user-info">Usuario: NombreDeUsuario</div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="menu.html">Menú</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="login.html">login</a></li>  
-            
-            </div>
-          </ul>
-        </nav>
-        <input type="text" id="search-bar" placeholder="Buscar productos...">
-        <button id="abrir-carrito"><a href="carrito.html">Ver Carrito</a></button>
-
+<section class="contacto" id="contacto">
+  <div class="container">
+    <h2>Contáctanos</h2>
+    <form action="#" method="post" class="contact-form">
+      <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
       </div>
-    </header>
-
-    <section id="productos" class="container">
-    <h2>Nuestros Productos Destacados</h2>
-    <div class="productos-grid">
-     
-
-<!-- Producto 1: Alitas Picantes -->
-<div class="producto">
-  <center><img src="img/alitas.jpg" alt=""></center>
-  <div class="producto-info">
-    <h3>Alitas Picantes</h3>
-    <p>Deliciosas alitas de pollo bañadas en una salsa picante casera, perfectas para acompañar tus reuniones con amigos o simplemente disfrutar de un delicioso bocado.</p>
-    <span class="precio">$10.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-
-<div class="producto">
-  <center><img src="img/michelada.jpg" alt=""></center>
-  <div class="producto-info">
-    <h3>Micheladas Refrescantes</h3>
-    <p>Refrescante bebida mexicana preparada con cerveza, jugo de limón, salsa picante y sal en el borde del vaso. Ideal para calmar la sed en días calurosos o como acompañamiento para tus platillos favoritos.</p>
-    <span class="precio">$8.49</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-<!-- Producto 3: Costillas BBQ -->
-<div class="producto">
-  <center><img src="img/costillas.jpg" alt=""></center>
-  <div class="producto-info">
-    <h3>Costillas BBQ</h3>
-    <p>Jugosas costillas de cerdo marinadas en una salsa barbacoa casera y cocinadas a la perfección. Su sabor ahumado y su textura tierna las convierten en una opción irresistible para los amantes de la carne.</p>
-    <span class="precio">$12.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-<!-- Producto 4: Papas Fritas con Queso y Tocino -->
-<div class="producto">
-  <center><img src="img/papas.jpg" alt="">
-  <div class="producto-info">
-    <h3>Papas Fritas con Queso y Tocino</h3>
-    <p>Crujientes papas fritas cubiertas con queso derretido y trozos de tocino crujiente. Una combinación de sabores que hará que tus papilas gustativas se vuelvan locas de placer.</p>
-    <span class="precio">$6.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-<!-- Producto 5: Tacos de Bistec -->
-<div class="producto">
-  <center><img src="img/tacos.jpg" alt="">
-  <div class="producto-info">
-    <h3>Tacos de Bistec</h3>
-    <p>Tacos tradicionales mexicanos rellenos de tierno bistec sazonado con especias tradicionales y acompañados de cebolla, cilantro y limón. Una explosión de sabores que te transportará directamente a las calles de México.</p>
-    <span class="precio">$9.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-<!-- Producto 6: Guacamole Fresco -->
-<div class="producto">
-  <center><img src="img/guacamole.jpg" alt="">
-  <div class="producto-info">
-    <h3>Guacamole Fresco</h3>
-    <p>Delicioso guacamole casero preparado con aguacates maduros, tomates, cebolla, cilantro y limón. Perfecto para acompañar tus tacos, nachos o simplemente disfrutar con totopos.</p>
-    <span class="precio">$7.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-<!-- Producto 7: Enchiladas Suizas -->
-<div class="producto">
-  <center><img src="img/enchiladas.jpg" alt="">
-  <div class="producto-info">
-    <h3>Enchiladas Suizas</h3>
-    <p>Tradicionales enchiladas mexicanas rellenas de pollo deshebrado y cubiertas con una deliciosa salsa de crema y queso gratinado. Un platillo reconfortante y lleno de sabor.</p>
-    <span class="precio">$11.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-<!-- Producto 8: Tamales de Elote -->
-<div class="producto">
-  <center><img src="img/tamales.jpg" alt="">
-  <div class="producto-info">
-    <h3>Tamales de Elote</h3>
-    <p>Deliciosos tamales mexicanos preparados con masa de maíz suave y rellenos de elote tierno. Cocidos al vapor en hojas de maíz, estos tamales son un manjar tradicional que no puede faltar en tu mesa.</p>
-    <span class="precio">$5.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-<!-- Producto 9: Pozole Rojo -->
-<div class="producto">
-  <center><img src="img/pozole.jpg" alt="">
-  <div class="producto-info">
-    <h3>Pozole Rojo</h3>
-    <p>Plato tradicional mexicano preparado con granos de maíz cocidos en un caldo sazonado con chiles rojos, carne de cerdo y otros ingredientes. Sirve con rodajas de limón, rábanos, lechuga y cebolla picada para una experiencia completa.</p>
-    <span class="precio">$13.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-<!-- Producto 10: Chiles en Nogada -->
-<div class="producto">
-  <center><img src="img/chiles.jpg" alt="">
-  <div class="producto-info">
-    <h3>Chiles en Nogada</h3>
-    <p>Plato típico mexicano que consiste en chiles poblanos rellenos de una mezcla de carne molida, frutas y especias, cubiertos con una salsa de nueces y decorados con granada y perejil. Una delicia que se sirve especialmente durante las fiestas patrias.</p>
-    <span class="precio">$14.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-  <!-- Producto 11: Birria de Res -->
-<div class="producto">
-  <center><img src="img/birria.jpg" alt="">
-  <div class="producto-info">
-    <h3>Birria de Res</h3>
-    <p>Platillo típico de la gastronomía mexicana, la birria de res es un estofado jugoso y lleno de sabor, preparado con carne de res cocida lentamente en una mezcla de especias y chiles. Se sirve con cebolla, cilantro y limón, acompañado de tortillas calientes.</p>
-    <span class="precio">$12.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-<!-- Producto 12: Molletes -->
-<div class="producto">
-  <center><img src="img/molletes.jpg" alt="">
-  <div class="producto-info">
-    <h3>Molletes</h3>
-    <p>Deliciosos molletes mexicanos preparados con pan bolillo tostado y cubierto con frijoles refritos, queso derretido y salsa. Una opción rápida y reconfortante para el desayuno o la cena.</p>
-    <span class="precio">$6.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-<!-- Producto 13: Tacos al Pastor -->
-<div class="producto">
-  <center><img src="img/pastor.jpg" alt="">
-  <div class="producto-info">
-    <h3>Tacos al Pastor</h3>
-    <p>Tacos típicos de la cocina mexicana, los tacos al pastor están preparados con carne de cerdo marinada en una mezcla de chiles y especias, asada lentamente en un trompo. Se sirven en tortillas de maíz con cebolla, cilantro, piña y salsa.</p>
-    <span class="precio">$9.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-<!-- Producto 14: Tostadas de Tinga -->
-<div class="producto">
-  <center><img src="img/tinga.jpg" alt="">
-  <div class="producto-info">
-    <h3>Tostadas de Tinga</h3>
-    <p>Deliciosas tostadas mexicanas cubiertas con carne de pollo deshebrada en una salsa de tomate, cebolla y chipotle. Se acompañan con lechuga, crema, queso fresco y aguacate, y son perfectas para disfrutar como aperitivo o como plato principal.</p>
-    <span class="precio">$8.49</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-<!-- Producto 15: Chilaquiles Verdes -->
-<div class="producto">
-  <center><img src="img/chilaquiles.jpg" alt="">
-  <div class="producto-info">
-    <h3>Chilaquiles Verdes</h3>
-    <p>Platillo tradicional mexicano compuesto por totopos de maíz bañados en salsa verde, acompañados de pollo deshebrado, crema, queso fresco y cebolla. Un desayuno o almuerzo reconfortante y lleno de sabor.</p>
-    <span class="precio">$7.99</span>
-    <button class="btn-comprar">Agregar al Carrito</button>
-  </div>
-</div>
-
-
-
-    </section>
-
-    <footer>
-      <div class="container">
-        <p>&copy; 2024 Aguayos. Todos los derechos reservados.</p>
+      <div class="form-group">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
       </div>
-    </footer>
+      <div class="form-group">
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn">Enviar Mensaje</button>
+    </form>
   </div>
+</section>
 
   <script src="script/script.js"></script>
-  <script src="script/carrito.js"></script>
 
 </body>
 </html>
-
