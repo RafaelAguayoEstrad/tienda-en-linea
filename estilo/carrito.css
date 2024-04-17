@@ -1,0 +1,60 @@
+ /* Estilos adicionales para mejorar la apariencia */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    header {
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin-top: 0;
+      color: #333;
+    }
+    .carrito-lista {
+      list-style-type: none;
+      padding: 0;
+    }
+    .carrito-lista li {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .carrito-lista li img {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+    #vaciar-carrito {
+      background-color: #dc3545;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #detalles-pedido {
+      margin-top: 20px;
+    }
+    #metodo-pago-form {
+      margin-top: 20px;
+    }
+    #metodo-pago-form label {
+      margin-right: 10px;
+    }
+    #metodo-pago-form button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
