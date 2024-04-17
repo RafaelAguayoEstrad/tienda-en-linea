@@ -1,3 +1,27 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ff6f61;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+   
+    .menu-list li a:hover {
+      color: #ffd966; /* Cambiar el color al pasar el cursor */
+    }
+
+    #user-info {
+      font-size: 18px;
+      font-weight: bold;
+    }
 .sidebar {
     background-color: #343a40;
     color: #fff;
@@ -188,4 +212,40 @@
   .sidebar img {
   max-width: 80%; /* Cambia el valor según el tamaño deseado */
   margin-bottom: 20px;
+}
+/* Estilos para el header */
+header {
+  background-color: #f8f9fa;
+  color: #000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Ajuste del margen izquierdo del contenido del header */
+.container {
+  margin-left: auto;
+}
+
+/* Estilos para el botón de desplegar la barra lateral */
+#sidebar-toggle {
+  position: fixed;
+  top: 5px;
+  left: 1px; /* Ajustamos la posición del botón hacia adentro */
+  width: 35px;
+  height: 35px;
+  background-color: #343a40;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  z-index: 2;
+  transition: left 0.3s ease;
+}
+
+/* Cambia el color del botón cuando se le hace hover */
+#sidebar-toggle:hover {
+  background-color: #545d65;
 }

@@ -1,22 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
-  const sidebarToggle = document.getElementById("sidebar-toggle");
-  const sidebar = document.querySelector(".sidebar");
-
-  sidebarToggle.addEventListener("click", function() {
-    if (sidebar.style.left === "-250px") {
-      sidebar.style.left = "0";
-      document.body.classList.remove("sidebar-collapsed");
-      document.body.classList.add("sidebar-opened");
-    } else {
-      sidebar.style.left = "-250px";
-      document.body.classList.add("sidebar-collapsed");
-      document.body.classList.remove("sidebar-opened");
-    }
-  });
-});
-
-
-// esta parte del codigo es responsable de las funciones de los botones y almacenar la infromacion 
+// script.js
 
 document.addEventListener("DOMContentLoaded", function() {
   // Obtener todos los botones "Agregar al Carrito"
@@ -47,6 +29,7 @@ function agregarAlCarrito(producto) {
 }
 
 
+
 //encargado de la busqueda de articulos 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -74,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
- // Recuperar el nombre de usuario almacenado en localStorage
+// Recuperar el nombre de usuario almacenado 
     var username = localStorage.getItem("username");
 
     // Mostrar el nombre de usuario en la interfaz
